@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++ 建置使用中檔案",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.out",
+				"-I/home/r10945018/EEE5009_Co-Design2022/systemc-2.3.3/include",
+				"-L/home/r10945018/EEE5009_Co-Design2022/systemc-2.3.3/lib-linux64",
+				"-lsystemc"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "編譯器: /usr/bin/g++"
+		}
+	]
+}
