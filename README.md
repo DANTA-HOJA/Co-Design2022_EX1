@@ -6,7 +6,7 @@
 1. To setting systemC on Linux： [Install](https://blog.csdn.net/weixin_44381276/article/details/121641494?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9.pc_relevant_default&utm_relevant_index=11)
 
 2. Download the ```test.cc``` 
-3. Compile ```test.cc``` using ```g++```(compile with ```.vscode/task.json``` -> args)
+3. Compile ```test.cc``` using ```g++``` (compile with ```.vscode/task.json``` -> args)
 4. Run ```test.out```
 
 !!!     
