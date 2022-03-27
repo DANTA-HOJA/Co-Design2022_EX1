@@ -9,9 +9,9 @@
 3. Compile ```test.cc``` using ```g++``` (compile with ```.vscode/task.json``` -> args)
 4. Run ```test.out```
 
-!!!     
+If you got ```Error while loading shared libraries: libsystemc-2.3.0.so```：[check here](https://stackoverflow.com/questions/12408882/error-while-loading-shared-libraries-libsystemc-2-3-0-so)
 
-    Don't forget to add ```{where you unzip systemC}/systemc-2.3.3/lib-linux64``` to ```~/.profile```.
+- Don't forget to add ```{where you unzip systemC}/systemc-2.3.3/lib-linux64``` to ```~/.profile```.
 
-    By using the line below and add to the end of ```~/.profile```：
-    - ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{where you unzip systemC}/systemc-2.3.0/lib-linux64```
+- By using the line below and add to the end of ```~/.profile```：
+    ```export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{where you unzip systemC}/systemc-2.3.0/lib-linux64```
