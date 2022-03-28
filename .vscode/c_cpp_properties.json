@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/r10945018/EEE5009_Co-Design2022/systemc-2.3.3/include"
+                "/home/r10945018/EEE5009_Co-Design2022/systemc-2.3.3/include",
+                "/home/r10945018/EEE5009_Co-Design2022/systemc-2.3.3/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
