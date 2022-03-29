@@ -5,4 +5,4 @@
 
 - To generate ```*.vcd```：[here](https://learnsystemc.com/basic/trace)
 
-- Download [GTKWave](http://gtkwave.sourceforge.net/) to show ```.vcd```
+- Download [GTKWave](http://gtkwave.sourceforge.net/) to show ```*.vcd```
