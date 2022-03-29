@@ -3,6 +3,6 @@
 
 - ALL of Code：[here](https://www.doulos.com/knowhow/systemc/systemc-tutorial/modules-and-processes/)
 
-- To generate ```*.vcd```：[here](https://learnsystemc.com/basic/trace)
+- To generate ```*.vcd```：[Example](https://learnsystemc.com/basic/trace)
 
-- Download [GTKWave](http://gtkwave.sourceforge.net/) to show ```*.vcd```
+- To show ```*.vcd```：[GTKWave](http://gtkwave.sourceforge.net/) or other ```*.vcd``` viewer
