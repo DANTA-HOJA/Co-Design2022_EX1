@@ -19,6 +19,7 @@ int sc_main(int argc, char *argv[]){
 
     sc_trace_file *file = sc_create_vcd_trace_file("../R10945018-SystemC-EX1"); // open trace file
 
+    sc_trace(file, TestClk, "Clock"); // trace ASig and name "signal_A" in .vcd file
     sc_trace(file, ASig, "signal_A"); // trace ASig and name "signal_A" in .vcd file
     sc_trace(file, BSig, "signal_B"); // trace ASig and name "signal_A" in .vcd file
     sc_trace(file, FSig, "signal_F"); // trace ASig and name "signal_A" in .vcd file
